@@ -1,15 +1,5 @@
-/*
- * LabGPIO_0.cpp
- *
- *  Created on: Feb 15, 2018
- *      Author: Sucheta
- */
-
 #include "LPC17xx.h"
 #include "LabGPIO.hpp"
-/*Constructor
- *
- */
 LabGPIO::LabGPIO(uint8_t port_number, uint8_t pin_number)
 {
     /*Set all the private variables
