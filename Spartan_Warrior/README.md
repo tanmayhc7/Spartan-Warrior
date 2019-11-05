@@ -1,0 +1,4 @@
+The project aims to build an embedded system based music system using SJOne  (LPC1758) board. The system will play music through a speaker interfaced with the board.  
+A mobile application will be used to remotely control the system using Bluetooth. The app will be able to send the start and stop signal to play music as well as switch the song and modify volume. 
+The playlist for music will be stored on an SD card mounted on the SJOne board.An audio decoder is required as a mediator between speaker and SJone board. 
+It will read data from SD card using SPI interface, convert this data into audio data and send to the speaker.RGB Spectrum of Audio will be shown on the LED.
